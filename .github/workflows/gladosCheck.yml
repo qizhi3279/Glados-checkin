@@ -1,14 +1,14 @@
 name: auto check
 
-on:
+于:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    分支: [ main ]
     paths-ignore:
       - 'README.md'
       - 'imgs/'
   schedule:
-    - cron: '0 4,10 * * *'
+    - cron: '0 16 * * *'
   watch:
     types: started
 
